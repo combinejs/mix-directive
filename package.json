@@ -1,6 +1,6 @@
 {
-  "name": "mix-directive",
-  "version": "0.1.0",
+  "name": "@combinejs/mix-directive",
+  "version": "0.1.1",
   "description": "mix directive",
   "main": "index.js",
   "scripts": {

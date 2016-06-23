@@ -1,6 +1,6 @@
 const directiveProvider = require('@combinejs/directives-provider'),
       blockProvider     = require('@combinejs/blocks-provider'),
-      MatchDirective    = directiveProvider('match');
+      MatchDirective    = directiveProvider.provide('match');
 
 function run(node, mixName) {
     walk(node, blockProvider(mixName), []);
