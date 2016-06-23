@@ -1,0 +1,38 @@
+{
+  "name": "mix-directive",
+  "version": "0.1.0",
+  "description": "mix directive",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/combinejs/mix-directive.git"
+  },
+  "author": "spat.ne.hochu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/combinejs/mix-directive/issues"
+  },
+  "homepage": "https://github.com/combinejs/mix-directive#readme",
+  "dependencies": {
+    "@combinejs/blocks-provider": "^0.1.0",
+    "@combinejs/directives-provider": "^0.10.0",
+    "@combinejs/match-directive": "^0.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
+  },
+  "files": [
+    "LICENSE",
+    "History.md",
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ]
+}
